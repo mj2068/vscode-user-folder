@@ -1,0 +1,348 @@
+{
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "blink",
+  "editor.cursorSmoothCaretAnimation": "off",
+  "editor.fontFamily": "CaskaydiaCove Nerd Font, Fira Code, Cascadia Code PL, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.maxColumn": 96,
+  "editor.minimap.side": "left",
+  "editor.minimap.scale": 1,
+  "editor.minimap.showSlider": "always",
+  "editor.smoothScrolling": false,
+  "editor.scrollbar.verticalScrollbarSize": 24,
+  "editor.scrollbar.horizontalScrollbarSize": 16,
+  "editor.suggestSelection": "first",
+  "editor.mouseWheelScrollSensitivity": 0.5,
+  "editor.guides.bracketPairs": "active",
+  "editor.rulers": [80, 96],
+  "editor.tokenColorCustomizations": {
+    "[Atom One Dark]": {
+      "comments": {
+        "foreground": "#6C7380",
+        "fontStyle": "italic"
+      }
+    },
+    "[Atom One Light]": {},
+    "[Tokyo Night]": {
+      "textMateRules": [
+        {
+          "scope": "entity.name.tag",
+          "settings": {
+            "foreground": "#f776cc"
+          }
+        },
+        {
+          "scope": "entity.name.tag.css",
+          "settings": {
+            "foreground": "#f776cc"
+          }
+        },
+        {
+          "scope": "entity.name.tag.custom.css",
+          "settings": {
+            "foreground": "#0DB9D7"
+          }
+        },
+        {
+          "scope": [
+            "entity.other.attribute-name.class",
+            "meta.attribute.class.html string.quoted.double.html"
+          ],
+          "settings": {
+            "foreground": "#4fcf8f"
+          }
+        },
+        {
+          "scope": "meta.attribute.id.html string.quoted.double.html ",
+          "settings": {
+            "foreground": "#FC7B7B"
+          }
+        },
+        {
+          "scope": ["text.html", "text.pug"],
+          "settings": {
+            "foreground": "#868faa"
+          }
+        },
+        {
+          "scope": "punctuation.definition.tag",
+          "settings": {
+            "foreground": "#8b2b70"
+          }
+        },
+        {
+          "scope": "source.vue string.quoted.double.ts",
+          "settings": {
+            "foreground": "#9ece6a"
+          }
+        },
+        {
+          "scope": "source.vue meta.object.member.ts string.quoted.double.ts",
+          "settings": {
+            "foreground": "#c9c74c"
+          }
+        },
+        {
+          "scope": "source.vue meta.import.ts string.quoted.double.ts",
+          "settings": {
+            "foreground": "#319241"
+          }
+        },
+        {
+          "scope": [
+            "source.vue constant.language.boolean.true.ts",
+            "source.vue constant.language.boolean.false.ts"
+          ],
+          "settings": {
+            "foreground": "#f77c57"
+          }
+        },
+        // {
+        //   "scope": "source.vue constant.language.boolean.false.ts",
+        //   "settings": {
+        //     "foreground": "#a2be21"
+        //   }
+        // },
+        {
+          "scope": ["source.vue variable.language.this"],
+          "settings": {
+            "foreground": "#f7606c"
+          }
+        }
+      ]
+    },
+    "[Tokyo Night Light]": {}
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "[Atom One Dark]": {
+      "rules": {
+        "annotation": "#da518a"
+      }
+    },
+    "[Atom One Light]": {},
+    "[Tokyo Night]": {
+      "rules": {
+        "type": "#2466eb",
+        "interface": "#7a36e7",
+        "class": "#d5da91",
+        "variable.readonly": "#e796cf"
+      }
+    },
+    "[Tokyo Night Light]": {}
+  },
+  "explorer.autoReveal": "focusNoScroll",
+  "settingsSync.ignoredExtensions": [
+    "ms-ceintl.vscode-language-pack-zh-hans",
+    "xadillax.viml",
+    "yinfei.luahelper",
+    "ms-python.vscode-pylance"
+  ],
+  "window.commandCenter": false,
+  "window.newWindowDimensions": "inherit",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.editor.wrapTabs": true,
+  "workbench.editor.scrollToSwitchTabs": true,
+  "workbench.colorCustomizations": {
+    "[Atom One Dark]": {
+      "editor.selectionBackground": "#3e4451",
+      // "editor.selectionHighlightBackground": "#ff0000",
+      "editor.selectionHighlightBackground": "#44497399",
+      "editorGutter.background": "#2F343B",
+      "tab.activeBackground": "#333842",
+      "terminal.tab.activeBorder": "#41b1dd",
+      "minimapSlider.background": "#53586277",
+      "list.inactiveSelectionBackground": "#43484d",
+      "list.activeSelectionBackground": "#43484d"
+    },
+    "[Atom One Light]": {
+      "editor.selectionBackground": "#C5C5C6",
+      "editorGutter.background": "#EAEAEA"
+    },
+    "[Tokyo Night]": {
+      "activityBar.activeBackground": "#2a2e4170",
+      "minimapSlider.background": "#2a2e4170",
+      "minimapSlider.hoverBackground": "#263e6370",
+      "scrollbarSlider.background": "#2a2e4170",
+      "scrollbarSlider.hoverBackground": "#263e6370",
+      "scrollbarSlider.activeBackground": "#3e5b8650",
+      "tab.activeBackground": "#2a2e4170",
+      "tab.hoverBackground": "#263e6370"
+      // "tab.activeModifiedBorder": "#06d172",
+      // "tab.inactiveModifiedBorder": "#079754b6"
+    },
+
+    "[Tokyo Night Storm]": {
+      //   "tab.activeBackground": "#2c324a",
+      //   "tab.hoverBackground": "#1b1e2e"
+    },
+    "[Tokyo Night Light]": {}
+  },
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook",
+    "*.xlsx": "default"
+  },
+  "workbench.list.smoothScrolling": false,
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.scrollback": 20000,
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.mouseWheelScrollSensitivity": 0.5,
+  "zenMode.restore": false,
+  "debug.console.fontFamily": "Cascadia Code, Consolas",
+  "debug.console.fontSize": 12,
+  "debug.console.wordWrap": false,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "extensions.autoUpdate": false,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1,
+    "ms-toolsai.jupyter": 2,
+    "ms-toolsai.jupyter-renderers": 2,
+    "ms-python.python": 2,
+    "ms-python.vscode-pylance": 2
+  },
+  "files.associations": {
+    "*.ftl": "html",
+    "secure": "log"
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "search.exclude": {
+    "**/node_modules": false
+  },
+  "json.maxItemsComputed": 10000,
+  "json.schemas": [
+    {
+      "fileMatch": ["*.json"],
+      "schema": {
+        "allowTrailingCommas": true
+      }
+    }
+  ],
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "redhat.telemetry.enabled": true,
+  "remote.SSH.remotePlatform": {
+    "172.20.125.129": "linux",
+    "192.168.0.42": "linux",
+    "192.168.0.110": "linux",
+    "192.168.0.135": "linux",
+    "192.168.31.110": "linux",
+    "192.168.39.136": "linux",
+    "octopi.local": "linux",
+    "zizaimai.space": "linux",
+    "zzm1": "linux",
+    "zzm2": "linux",
+    "zzm2lm": "linux"
+  },
+  "[cpp]": {},
+  "[css]": {
+    "editor.tabSize": 2,
+    "editor.suggest.insertMode": "replace",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[log]": {
+    "editor.fontSize": 12,
+    "editor.wordWrap": "off"
+  },
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    // "editor.quickSuggestions": {
+    //   "strings": true
+    // },
+    // "editor.suggest.insertMode": "replace"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[sass]": {},
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svg.preview.mode": "svg",
+  "security.workspace.trust.untrustedFiles": "open",
+  "prettier.enableDebugLogs": true,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "eslint.format.enable": true,
+  "highlight-matching-tag.highlightFromContent": true,
+  "highlight-matching-tag.styles": {
+    "opening": {
+      "name": {
+        "custom": {
+          "dark": {
+            "borderWidth": "0 0 1px 0",
+            "borderColor": "gold",
+            "borderStyle": "solid",
+            "borderRadius": "0px",
+            "right": "10px",
+            "overviewRulerColor": "gold"
+          },
+          "light": {
+            "borderWidth": "0 0 1px 0",
+            "borderColor": "brown",
+            "borderStyle": "solid",
+            "borderRadius": "0px",
+            "right": "10px",
+            "overviewRulerColor": "brown"
+          }
+        }
+      }
+    }
+  },
+  "arduino.defaultBaudRate": 9600,
+  "bracket-pair-colorizer-2.colors": ["darkorange", "Orchid", "dodgerblue"],
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "cmake.configureOnOpen": false,
+  "code-runner.showRunCommandInEditorContextMenu": false,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "code-runner.showRunCommandInExplorerContextMenu": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "thunder-client.codeSnippetLanguage": "js-axios",
+  "vscode-neovim.neovimExecutablePaths.win32": "C:\\nvim091\\bin\\nvim.exe",
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.packageIndexDepths": [
+    { "name": "sklearn", "depth": 2 },
+    { "name": "matplotlib", "depth": 2 },
+    { "name": "scipy", "depth": 2 },
+    { "name": "django", "depth": 2 },
+    { "name": "flask", "depth": 2 },
+    { "name": "fastapi", "depth": 2 },
+    { "name": "sqlalchemy", "depth": 3 },
+    { "name": "passlib", "depth": 2 },
+    { "name": "python-jose", "depth": 2 }
+  ],
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.downloadStubs": true
+}

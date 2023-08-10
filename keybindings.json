@@ -1,0 +1,90 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "ctrl+alt+r",
+    "command": "editor.action.fontZoomReset"
+  },
+  {
+    "key": "ctrl+alt+j",
+    "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+shift+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
+    "key": "ctrl+alt+u",
+    "command": "thunder-client.import-curl"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-thunder-client.import-curl"
+  },
+
+  // add by rei :p
+  {
+    "key": "ctrl+alt+p",
+    "command": "workbench.action.toggleSidebarPosition"
+  },
+
+  // close vscode window, don't need. too dangerous... x_x
+  {
+    "key": "ctrl+shift+w",
+    "command": "-workbench.action.closeWindow"
+  },
+
+  // original combo conflicts with nvim, has to be changed
+  // ***
+  {
+    "key": "ctrl+alt+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "ctrl+alt+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "ctrl+alt+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
+    "key": "ctrl+alt+z",
+    "command": "undo"
+  },
+  {
+    "key": "ctrl+alt+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "editor.action.startFindReplaceAction",
+    "when": "editorFocus || editorIsOpen"
+  },
+  // ***
+
+  {
+    "key": "shift+alt+t",
+    "command": "editor.action.inspectTMScopes"
+  },
+
+  // always fotget not to push this when there's only one item on the list
+  {
+    "key": "ctrl+alt+n",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile"
+  },
+  {
+    "key": "ctrl+shift+alt+z",
+    "command": "workbench.action.toggleZenMode"
+  }
+]
